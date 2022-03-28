@@ -3,106 +3,30 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>sl33p</title>
-		<style>
-			@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
-			* {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-				list-style: none;
-				text-decoration: none;
-				font-family: 'Roboto', sans-serif;
-			}
-
-			:root {
-				--primary-color: 111, 76, 255;
-				--text-color: 0, 0, 0;
-			}
-
-			body {
-				background-image: linear-gradient(147deg, white 50%, #2c3e50 94%);
-			}
-
-			body #wrapper {
-				min-height: 100vh;
-				max-width: 720px;
-				margin: auto;
-				text-align: center;
-				font-weight: bold;
-			}
-
-			body #wrapper .text-effect {
-				background: linear-gradient(to right, #30CFD0, #c43ad6);
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				/* text-shadow: 0 0 80px rgb(192 219 255 / 75%), 0 0 32px rgb(65 120 255 / 24%); */
-			}
-
-			body #wrapper .header {
-				padding: 1.5rem 0;
-			}
-
-			body #wrapper .header .avatar {
-				width: 100px;
-				height: 100px;
-				margin-bottom: 10px;
-				border-radius: 50%;
-			}
-
-			body #wrapper li a {
-				display: block;
-				color: white;
-				background-color: rgba(var(--primary-color), 0.15);
-				border: 1px solid rgba(var(--primary-color), 0.25);
-				color: rgba(var(--text-color), 0.8);
-				border-radius: 25px;
-				padding: 18px 57px;
-				transition: 0.3s;
-			}
-
-			body #wrapper li a:hover {
-				background-color: rgba(var(--primary-color), 0.15);
-				border: 1px solid rgba(var(--primary-color), 0.25);
-				color: rgba(var(--text-color), 0.8);
-				transition: 0.3s;
-			}
-
-			body #wrapper li {
-				margin: .9rem;
-			}
-
-			body #wrapper .spacer {
-				display: block;
-				padding: 1.5rem 0;
-			}
-
-			body #wrapper .footer {
-				word-break: normal;
-				margin-bottom: 1rem;
-			}
-		</style>
+		<title>Pinwheel DAO</title>
+		<link rel="stylesheet" type ="text/css" href="./style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
 	</head>
-	<body class="bg-blur">
-		<div id="wrapper">
-			<div class="header">
-				<img class="avatar" src="./assets/pinwheel.png">
-				<br></br>
-				<div class="text-effect">
-					Pinwheel DAO
-				</div>
-			</div>
-			<div>
-				<li>
-					<a href="https://github.com/pinwheelprotocol" target="_blank" rel="noopener noreferrer">github.com/pinwheelprotocol</a>
-				</li>	
-				<li>
-					<a href="https://twitter.com/pinwheel_dao" target="_blank" rel="noopener noreferrer">twitter.com/pinwheel_dao</a>
-				</li>
-			</div>
-			<div class="spacer"></div>
-			<div class="footer text-effect"> We are the music makers, the dreamers of dreams... </div>
-		</div>
-	</body>
+
+	<section class="header">
+		<img class="avatar" alt="pinwheel logo" src="./assets/pinwheel-512.svg">
+		<h1>Pinwheel DAO</h1>
+	</section>
+
+	<section class="body">
+		<ul>
+			<li>
+				<a href="https://github.com/pinwheelprotocol" target="_blank" rel="noopener noreferrer">github.com/pinwheelprotocol</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/pinwheel_dao" target="_blank" rel="noopener noreferrer">twitter.com/pinwheel_dao</a>
+			</li>
+		</ul>
+	</section>
+
+	<div class="spacer"></div>
+
+	<footer>
+		We are the music makers, the dreamers of dreams...
+	</footer>
 </html>
